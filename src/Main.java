@@ -5,11 +5,9 @@ public class Main {
         BmiService service = new BmiService();
         int height = 181;
         int weight = 80;
-        int result = service.calculate(height , weight );
-        System.out.println (result);
+        int result = service.calculate(height, weight);
+        System.out.println(result);
 
 
-
-
-        }
     }
+}
